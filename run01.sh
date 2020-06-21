@@ -3,7 +3,7 @@ mkdir -p data_wav
 for f in `ls data/*.als`
 do
 b=`basename $f .als`
-#mp4alsRM23/bin/linux/mp4alsRM23	-x $f data_wav/${b}.wav
+mp4alsRM23/bin/linux/mp4alsRM23	-x $f data_wav/${b}.wav
 done
 
 mkdir -p data_wav1ch

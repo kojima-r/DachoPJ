@@ -27,7 +27,7 @@ def main():
     data=[]
     feature="spec"
     test_ratio=0.0
-    max_length=10000
+    max_length=1000
     filename_list=glob.glob("data_npy/*.npy")
     #feature="mfcc"
     feature="spec"
